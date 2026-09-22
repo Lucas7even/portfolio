@@ -39,7 +39,6 @@ O jogador precisa descobrir a palavra escolhendo as letras disponíveis. Cada le
 
 ## Estrutura do projeto
 
-```text
 app/
 ├── page.js
 ├── layout.js
@@ -47,45 +46,6 @@ app/
 │
 └── forca/
     └── page.js
-Como executar o projeto
+## Url
 
-Primeiro, clone o repositório:
-
-git clone URL_DO_REPOSITORIO
-
-Entre na pasta do projeto:
-
-cd nome-do-projeto
-
-Instale as dependências:
-
-npm install
-
-Execute o projeto:
-
-npm run dev
-
-Depois, acesse no navegador:
-
-http://localhost:3000
-
-Para acessar o jogo:
-
-http://localhost:3000/forca
-Objetivo
-
-O objetivo do projeto é desenvolver um portfólio utilizando tecnologias de desenvolvimento web modernas, além de demonstrar conhecimentos em React, Next.js, JavaScript e CSS.
-
-Autor
-
-Lucas Hudson
-
-Estudante de Ciência da Computação.
-
-
-Se você for colocar no **GitHub**, eu recomendo trocar:
-
-```text
-git clone URL_DO_REPOSITORIO
-
-pela URL real do seu repositório.
+https://curriculo-flame-five.vercel.app/
