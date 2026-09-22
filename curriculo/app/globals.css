@@ -778,3 +778,92 @@ text-align: center;
 
 }
 }
+.forca {
+  min-height: 100vh;
+  padding: 60px 20px;
+  text-align: center;
+  background: #071014;
+  color: white;
+}
+
+.forca h1 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.erros {
+  font-size: 18px;
+  color: #00e5ff;
+}
+
+.palavra {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 50px 0;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.palavra span {
+  width: 35px;
+  border-bottom: 3px solid #00e5ff;
+  padding-bottom: 8px;
+}
+
+.teclado {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.teclado button {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #00e5ff;
+  background: transparent;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.teclado button:hover {
+  background: #00e5ff;
+  color: #071014;
+}
+
+.teclado button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.resultado {
+  margin-top: 40px;
+}
+
+.resultado h2 {
+  font-size: 30px;
+}
+
+.resultado p {
+  font-size: 18px;
+}
+
+.novoJogo {
+  margin-top: 15px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  background: #00e5ff;
+  color: #071014;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.novoJogo:hover {
+  opacity: 0.8;
+}
