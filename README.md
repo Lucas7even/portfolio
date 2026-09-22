@@ -38,7 +38,7 @@ O jogador precisa descobrir a palavra escolhendo as letras disponíveis. Cada le
 - É possível iniciar uma nova partida.
 
 ## Estrutura do projeto
-
+```text
 app/
 ├── page.js
 ├── layout.js
@@ -46,6 +46,6 @@ app/
 │
 └── forca/
     └── page.js
+```
 ## Url
-
 https://curriculo-flame-five.vercel.app/
